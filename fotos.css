@@ -1,0 +1,30 @@
+body{
+ background-color: black;
+}
+.titulo{
+ display: flex;
+ justify-content: space-evenly;
+}
+h1{
+text-align: center;
+color: #feff53;
+border:solid 5px #9d6913;
+margin-left: 200px;
+margin-right: 200px;
+padding: 0 15px 0 15px;
+}
+
+.fotos{
+display:flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+img{
+width: 400px;
+height: 300px;
+padding: 5px 5px 5px 5px;
+margin: 5px 5px 25px 5px;
+border-radius: 50px;
+border: solid white 2px;
+}
