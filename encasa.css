@@ -1,0 +1,25 @@
+body{
+ background-color: black;
+}
+h1{
+    border:solid #9d6913 5px;
+    color:#feff53 ;
+    padding: 0 25px 0 25px;
+   }
+   .titulo{
+ display: flex;
+ justify-content: center;
+}
+.resultado{
+color: white;
+}
+h4{
+color: #9d6913;
+}
+
+   
+
+body {
+  font-family: Arial, sans-serif;
+}
+

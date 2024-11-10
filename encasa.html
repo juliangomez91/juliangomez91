@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <link rel="stylesheet" href="/encasa.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EN CASA</title>
+</head>
+<body>
+    <div class="titulo"> 
+        <h1>EN CASA</h1>
+        </div>
+        <h4>CUAL ES TU INGREDIENTE FAVORITO</h4>
+        <select name="preferencias" id="preferencia"> ¿que prefieres?
+             <option disabled selected value="ARROZ">ARROZ</option>
+             <option value="PASTA">PASTA</option>
+             <option value="PAPA">PAPA</option>
+             <option value="VEGETALES">VEGETALES</option>
+        </select>
+        <button onclick="submit()">submit</button>
+        <p class="resultado"></p>
+    
+          <script>
+  function submit(){
+    const paragrafo= document.getElementsByClassName("resultado");
+    const seleccion = document.getElementById("preferencia").value;
+    paragrafo[0].innerHTML = "TU PREFERENCIA ES: "+ seleccion;
+    
+
+  }
+
+
+          </script>        
+                        
+</body>
+</html>
